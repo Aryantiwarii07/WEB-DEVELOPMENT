@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LearnHub - Learn Anything, Anytime</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="header">
+    <div class="container header-flex">
+      <div class="logo">
+        <h1>LearnHub</h1>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h2>Master New Skills with Expert-Led Courses</h2>
+          <p>Join 500,000+ learners and unlock your potential with courses in design, development, business, and more.</p>
+          <a href="#courses" class="btn-primary">Explore Courses</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero.jpg" alt="Student learning online with laptop and books" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+      <div class="container">
+        <h2 class="section-title">Popular Courses</h2>
+        <div class="courses-grid">
+          <article class="course-card">
+            <img src="images/course1.jpg" alt="Web Development Bootcamp" />
+            <div class="card-body">
+              <h3>Web Development Bootcamp</h3>
+              <p>From zero to hero in HTML, CSS, JavaScript & React</p>
+              <div class="price">$99</div>
+            </div>
+          </article>
+          <!-- Repeat 5 more -->
+          <article class="course-card">
+            <img src="images/course2.jpg" alt="UI/UX Design Mastery" />
+            <div class="card-body">
+              <h3>UI/UX Design Mastery</h3>
+              <p>Figma, user research, prototyping & design systems</p>
+              <div class="price">$89</div>
+            </div>
+          </article>
+          <article class="course-card">
+            <img src="images/course3.jpg" alt="Python for Data Science" />
+            <div class="card-body">
+              <h3>Python for Data Science</h3>
+              <p>Pandas, NumPy, Machine Learning & visualization</p>
+              <div class="price">$119</div>
+            </div>
+          </article>
+          <article class="course-card">
+            <img src="images/course4.jpg" alt="Digital Marketing Pro" />
+            <div class="card-body">
+              <h3>Digital Marketing Pro</h3>
+              <p>SEO, Google Ads, Social Media & Analytics</p>
+              <div class="price">$79</div>
+            </div>
+          </article>
+          <article class="course-card">
+            <img src="images/course5.jpg" alt="Mobile App Development" />
+            <div class="card-body">
+              <h3>Mobile App Development</h3>
+              <p>Flutter & Dart - Build iOS and Android apps</p>
+              <div class="price">$109</div>
+            </div>
+          </article>
+          <article class="course-card">
+            <img src="images/course6.jpg" alt="Graphic Design Basics" />
+            <div class="card-body">
+              <h3>Graphic Design Basics</h3>
+              <p>Photoshop, Illustrator & branding fundamentals</p>
+              <div class="price">$69</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Students Say</h2>
+        <div class="testimonials-grid">
+          <figure class="testimonial">
+            <img src="images/avatar1.jpg" alt="Sarah K." />
+            <blockquote>"Changed my career! Landed a job as a frontend developer after this course."</blockquote>
+            <figcaption>— Sarah K., Web Developer</figcaption>
+          </figure>
+          <!-- Add 2 more if you want -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" required placeholder="John Doe" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" required placeholder="john@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="How can we help you?"></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>&copy; 2025 LearnHub. All rights reserved.</div>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Twitter">TW</a>
+        <a href="#" aria-label="Instagram">IG</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
